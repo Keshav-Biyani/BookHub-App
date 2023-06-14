@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Bookhub</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="favourites">Favourites</string>
+    <string name="profile">Profile</string>
+    <string name="about">About</string>
+    <string name="open_drawer">open frawer</string>
+    <string name="close_drawer">close drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="DashboardLayout">Dashboard fragent</string>
+    <string name="favaroute">favourate fragment</string>
+    <string name="about_fragment">About fragment</string>
+    <string name="profile_Fragment">Profile fragment</string>
+    <string name="keshav_biyani">Keshav Biyani</string>
+    <string name="list_item">List Item</string>
+    <string name="author">Name of the author</string>
+    <string name="price">Rs.200</string>
+    <string name="check_internet">Check Internet</string>
+    <string name="url">http://13.235.250.119/v1/book/fetch_books/</string>
+    <string name="todo">TODO</string>
+    <string name="add_to_favourate">Add to Favourate</string>
+    <string name="about_book">About the Book</string>
+
+    <string name="action_short">Short</string>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.ProfileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+<de.hdodenhof.circleimageview.CircleImageView
+    android:id="@+id/imgProfile"
+    android:layout_width="140dp"
+    android:layout_height="140dp"
+    android:layout_marginTop="25dp"
+    android:src="@drawable/profile"
+    android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/keshav_biyani"
+        android:layout_below="@+id/imgProfile"
+        android:layout_marginTop="15dp"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="keshavbiyani23@gmail.com"
+        android:textColor="@color/purple_700"
+        android:textSize="21sp" />
+    <TextView
+        android:id="@+id/txtNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="8078621257"
+        android:layout_below="@+id/txtEmail"
+        android:textSize="21sp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/purple_700"/>
+
+
+
+</RelativeLayout>
